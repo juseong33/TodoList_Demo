@@ -37,6 +37,9 @@ dependencies {
 
 	// testCompileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.22'
 	// testAnnotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.22'
+
+	// https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt
+	compileOnly group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1'
 }
 
 tasks.named('test') {
