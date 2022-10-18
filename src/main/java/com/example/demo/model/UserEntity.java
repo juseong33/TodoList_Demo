@@ -2,6 +2,7 @@ package com.example.demo.model;
 
 import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
+
 import javax.persistence.*;
 
 @Data
@@ -18,7 +19,10 @@ public class UserEntity {
 
     @Column(nullable = false)
     private String username;
+
     private String password;
+
     private String role;
+
     private String authProvider;
 }
